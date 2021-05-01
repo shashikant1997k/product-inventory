@@ -1,0 +1,34 @@
+.home {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.background__img {
+  height: 400px;
+  /* margin-bottom: -60px; */
+}
+.home__image {
+  width: 100%;
+  height: 100%;
+}
+.main__row {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+.main__row h5 {
+  margin-left: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #898989;
+}
+.home__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1;
+  overflow: auto;
+}
+
+.home__row::-webkit-scrollbar {
+  display: none;
+}

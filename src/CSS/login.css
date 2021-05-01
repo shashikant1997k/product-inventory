@@ -1,0 +1,42 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.login__logo {
+  width: 100px;
+  margin: 20px auto;
+  object-fit: contain;
+}
+
+.login__container {
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.login__container > h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__signInButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.spinner-border {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  border: 0.2em solid whitesmoke !important;
+  border-right-color: transparent !important;
+}

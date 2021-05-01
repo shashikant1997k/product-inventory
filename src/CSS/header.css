@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  background: #ffffff;
+  height: 60px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.username {
+  margin-right: 15px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.logout__button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 300px;
+}
